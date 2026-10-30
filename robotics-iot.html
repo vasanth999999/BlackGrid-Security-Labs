@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robotics, IoT & Engineering — BlackGrid Security Labs</title>
+  <meta name="description" content="Master Robotics, Internet of Things (IoT), Arduino, Embedded Microcontrollers, and Industrial Automation with BlackGrid Security Labs." />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="BlackGrid Security Labs Homepage">
+        <div class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#D8FF38" fill="rgba(216,255,56,0.15)"/>
+            <path d="M9 8h4.5a2 2 0 0 1 0 4H9V8zm0 4h5a2 2 0 0 1 0 4H9v-4z" stroke="#FFFFFF"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Black<span>Grid</span></span>
+          <span class="brand-sub">Security Labs</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+        <div class="nav-item has-dropdown">
+          <a href="courses.html" class="nav-link active">
+            Courses <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="cybersecurity.html" class="dropdown-link">Cybersecurity & Forensics</a>
+            <a href="software-development.html" class="dropdown-link">Software Development</a>
+            <a href="ai-data.html" class="dropdown-link">AI & Data Science</a>
+            <a href="networking.html" class="dropdown-link">Networking & IT Certs</a>
+            <a href="cloud-devops.html" class="dropdown-link">Cloud & DevOps</a>
+            <a href="robotics-iot.html" class="dropdown-link" style="color: var(--color-primary); font-weight: 700;">Robotics & IoT</a>
+            <a href="government-exams.html" class="dropdown-link">Academic Programs</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="index.html#it-services" class="nav-link">Services</a></div>
+        <div class="nav-item"><a href="workshops.html" class="nav-link">Workshops</a></div>
+        <div class="nav-item"><a href="blogs.html" class="nav-link">Blogs</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link">About Us</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="workshops.html" class="btn-workshop-badge">
+          <span class="btn-workshop-dot"></span>
+          Upcoming Workshop
+        </a>
+        <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20want%20to%20enquire%20about%20Robotics%20and%20IoT%20courses." target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Course Enquiry
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" role="dialog">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="courses.html" class="mobile-nav-link">Courses (All Categories)</a></li>
+      <li><a href="cybersecurity.html" class="mobile-nav-link">&bull; Cybersecurity & Forensics</a></li>
+      <li><a href="software-development.html" class="mobile-nav-link">&bull; Software Development</a></li>
+      <li><a href="ai-data.html" class="mobile-nav-link">&bull; AI & Data Science</a></li>
+      <li><a href="networking.html" class="mobile-nav-link">&bull; Networking & IT Certs</a></li>
+      <li><a href="cloud-devops.html" class="mobile-nav-link">&bull; Cloud & DevOps</a></li>
+      <li><a href="robotics-iot.html" class="mobile-nav-link" style="color: var(--color-primary); font-weight: 700;">&bull; Robotics & IoT</a></li>
+      <li><a href="government-exams.html" class="mobile-nav-link">&bull; Academic Programs</a></li>
+      <li><a href="index.html#it-services" class="mobile-nav-link">IT Services</a></li>
+      <li><a href="workshops.html" class="mobile-nav-link">Workshops</a></li>
+      <li><a href="blogs.html" class="mobile-nav-link">Blogs</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <a href="courses.html">Courses</a>
+          <span class="sep">/</span>
+          <span class="current">Robotics, IoT & Engineering</span>
+        </nav>
+        <h1 class="page-title">Robotics, IoT & Engineering</h1>
+        <p class="page-subtitle">
+          Make ideas move and work in the physical world. Wire real circuits, program embedded microcontrollers, deploy IoT sensor networks, and program automated robotic manipulators with practical workbench training.
+        </p>
+      </div>
+    </section>
+
+    <!-- 2-Column Course Cards Grid -->
+    <section class="section-py" style="background-color: var(--color-surface);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.5rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="section-kicker">Curriculum Track</span>
+            <h2 class="section-title" style="font-size: 1.75rem;">8 Engineering & Hardware Tracks</h2>
+          </div>
+          <div style="font-size: 0.9rem; color: var(--color-text-muted);">
+            Batch allocations: <strong style="color: var(--color-dark);">Open for Enquiries</strong>
+          </div>
+        </div>
+
+        <div class="course-cards-grid">
+          <!-- Course 1 -->
+          <article class="course-card-detailed">
+            <div class="course-card-top">
+              <h3 class="course-title-detailed">Robotics & Automation</h3>
+              <span style="font-size: 0.75rem; font-weight: 700; color: var(--color-primary); background: var(--color-primary-soft); padding: 0.25rem 0.6rem; border-radius: var(--radius-sm);">Automation</span>
+            </div>
+            <p class="course-desc-detailed">
+              Kinematics, actuator control, robotic arm trajectory planning, servo motor calibration, and closed-loop feedback systems.
+            </p>
+            <div class="course-meta-box">
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Duration</span>
+                <span class="course-meta-cell-val">To be announced</span>
+              </div>
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Practical Lab</span>
+                <span class="course-meta-cell-val">Robotic Arm Motion Lab</span>
+              </div>
+            </div>
+            <div class="syllabus-heading">Key Topics Covered</div>
+            <ul class="syllabus-list">
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Forward and inverse kinematics for multi-axis manipulators</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Stepper, servo and BLDC motor drivers & PWM pulse control</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>PID closed-loop tuning for position and velocity tracking</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Robot Operating System (ROS 2) node communication basics</li>
+            </ul>
+            <div class="course-card-actions">
+              <button class="btn-primary" data-enquire-course="Robotics & Automation">Course Enquiry</button>
+              <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20please%20send%20Robotics%20syllabus." target="_blank" rel="noopener noreferrer" class="btn-secondary">WhatsApp Syllabus</a>
+            </div>
+          </article>
+
+          <!-- Course 2 -->
+          <article class="course-card-detailed">
+            <div class="course-card-top">
+              <h3 class="course-title-detailed">Internet of Things (IoT)</h3>
+              <span style="font-size: 0.75rem; font-weight: 700; color: #166534; background: #dcfce7; padding: 0.25rem 0.6rem; border-radius: var(--radius-sm);">Connected Tech</span>
+            </div>
+            <p class="course-desc-detailed">
+              Connect edge sensors to cloud platforms. MQTT protocols, Wi-Fi/BLE microcontrollers (ESP32), node authentication, and live telemetry dashboards.
+            </p>
+            <div class="course-meta-box">
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Duration</span>
+                <span class="course-meta-cell-val">To be announced</span>
+              </div>
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Practical Lab</span>
+                <span class="course-meta-cell-val">ESP32 IoT Cloud Station</span>
+              </div>
+            </div>
+            <div class="syllabus-heading">Key Topics Covered</div>
+            <ul class="syllabus-list">
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>MQTT broker architecture, publishers, subscribers & QoS levels</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>ESP32 dual-core Wi-Fi & Bluetooth low-energy communication</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Cloud IoT Core setups (AWS IoT, Adafruit IO, ThingSpeak)</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>IoT security, TLS certificates, and firmware over-the-air (FOTA)</li>
+            </ul>
+            <div class="course-card-actions">
+              <button class="btn-primary" data-enquire-course="Internet of Things (IoT)">Course Enquiry</button>
+              <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20please%20send%20IoT%20syllabus." target="_blank" rel="noopener noreferrer" class="btn-secondary">WhatsApp Syllabus</a>
+            </div>
+          </article>
+
+          <!-- Course 3 -->
+          <article class="course-card-detailed">
+            <div class="course-card-top">
+              <h3 class="course-title-detailed">Arduino & Embedded Systems</h3>
+              <span style="font-size: 0.75rem; font-weight: 700; color: #0284c7; background: #e0f2fe; padding: 0.25rem 0.6rem; border-radius: var(--radius-sm);">Embedded Core</span>
+            </div>
+            <p class="course-desc-detailed">
+              Embedded C/C++ programming for Atmel AVR and ARM Cortex processors. Master timers, interrupts, analog-to-digital converters, and serial communication.
+            </p>
+            <div class="course-meta-box">
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Duration</span>
+                <span class="course-meta-cell-val">To be announced</span>
+              </div>
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Practical Lab</span>
+                <span class="course-meta-cell-val">Hardware Interrupt Controller</span>
+              </div>
+            </div>
+            <div class="syllabus-heading">Key Topics Covered</div>
+            <ul class="syllabus-list">
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Embedded C memory management, bitwise operations & registers</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Hardware interrupts (ISR), hardware timers, and debouncing</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>ADC conversion, voltage dividers, and sensor signal sampling</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>EEPROM storage and low-power sleep modes for battery nodes</li>
+            </ul>
+            <div class="course-card-actions">
+              <button class="btn-primary" data-enquire-course="Arduino & Embedded Systems">Course Enquiry</button>
+              <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20please%20send%20Arduino%20syllabus." target="_blank" rel="noopener noreferrer" class="btn-secondary">WhatsApp Syllabus</a>
+            </div>
+          </article>
+
+          <!-- Course 4 -->
+          <article class="course-card-detailed">
+            <div class="course-card-top">
+              <h3 class="course-title-detailed">Sensors & Microcontrollers</h3>
+              <span style="font-size: 0.75rem; font-weight: 700; color: #4338ca; background: #e0e7ff; padding: 0.25rem 0.6rem; border-radius: var(--radius-sm);">Hardware Protocols</span>
+            </div>
+            <p class="course-desc-detailed">
+              Interfacing digital and analog sensors across I2C, SPI, and UART buses. Ultrasonic, IMU accelerometers, temperature/humidity, and optical encoders.
+            </p>
+            <div class="course-meta-box">
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Duration</span>
+                <span class="course-meta-cell-val">To be announced</span>
+              </div>
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Practical Lab</span>
+                <span class="course-meta-cell-val">Multi-Sensor Bus Telemetry Array</span>
+              </div>
+            </div>
+            <div class="syllabus-heading">Key Topics Covered</div>
+            <ul class="syllabus-list">
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>I2C two-wire bus addressing, clock stretching & pull-up sizing</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>SPI high-speed communication with chip-select (CS) multiplexing</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>IMU 6-axis gyro/accelerometer calibration and Kalman filtering</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Oscilloscope and logic analyzer signal decoding</li>
+            </ul>
+            <div class="course-card-actions">
+              <button class="btn-primary" data-enquire-course="Sensors & Microcontrollers">Course Enquiry</button>
+              <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20please%20send%20Sensors%20syllabus." target="_blank" rel="noopener noreferrer" class="btn-secondary">WhatsApp Syllabus</a>
+            </div>
+          </article>
+
+          <!-- Course 5 -->
+          <article class="course-card-detailed">
+            <div class="course-card-top">
+              <h3 class="course-title-detailed">Electronics Fundamentals</h3>
+              <span style="font-size: 0.75rem; font-weight: 700; color: #7c2d12; background: #ffedd5; padding: 0.25rem 0.6rem; border-radius: var(--radius-sm);">Circuit Theory</span>
+            </div>
+            <p class="course-desc-detailed">
+              Ohm’s law, Kirchhoff’s laws, passive components, transistors as switches, op-amps, power supplies, and schematic breadboarding.
+            </p>
+            <div class="course-meta-box">
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Duration</span>
+                <span class="course-meta-cell-val">To be announced</span>
+              </div>
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Practical Lab</span>
+                <span class="course-meta-cell-val">Linear Power Supply & Amplifier</span>
+              </div>
+            </div>
+            <div class="syllabus-heading">Key Topics Covered</div>
+            <ul class="syllabus-list">
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Voltage, current, resistance and power calculations</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Diodes, Zener regulation, and rectification circuits</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>BJT and MOSFET switching circuits for relay and motor loads</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>PCB schematic layout basics in KiCad</li>
+            </ul>
+            <div class="course-card-actions">
+              <button class="btn-primary" data-enquire-course="Electronics Fundamentals">Course Enquiry</button>
+              <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20please%20send%20Electronics%20syllabus." target="_blank" rel="noopener noreferrer" class="btn-secondary">WhatsApp Syllabus</a>
+            </div>
+          </article>
+
+          <!-- Course 6 -->
+          <article class="course-card-detailed">
+            <div class="course-card-top">
+              <h3 class="course-title-detailed">Industrial Automation</h3>
+              <span style="font-size: 0.75rem; font-weight: 700; color: #047857; background: #d1fae5; padding: 0.25rem 0.6rem; border-radius: var(--radius-sm);">Industry 4.0</span>
+            </div>
+            <p class="course-desc-detailed">
+              Programmable Logic Controllers (PLCs), ladder logic programming, SCADA monitoring, industrial fieldbuses (Modbus/Profibus), and factory safety circuits.
+            </p>
+            <div class="course-meta-box">
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Duration</span>
+                <span class="course-meta-cell-val">To be announced</span>
+              </div>
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Practical Lab</span>
+                <span class="course-meta-cell-val">PLC Conveyor Belt Automation</span>
+              </div>
+            </div>
+            <div class="syllabus-heading">Key Topics Covered</div>
+            <ul class="syllabus-list">
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>PLC architecture, relay logic transition & IEC 61131-3 standards</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Ladder Diagram (LD), Function Block Diagram (FBD) programming</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>SCADA and Human-Machine Interface (HMI) screen development</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Industrial Ethernet, Modbus RTU/TCP protocols and safety gates</li>
+            </ul>
+            <div class="course-card-actions">
+              <button class="btn-primary" data-enquire-course="Industrial Automation">Course Enquiry</button>
+              <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20please%20send%20Industrial%20Automation%20syllabus." target="_blank" rel="noopener noreferrer" class="btn-secondary">WhatsApp Syllabus</a>
+            </div>
+          </article>
+
+          <!-- Course 7 -->
+          <article class="course-card-detailed">
+            <div class="course-card-top">
+              <h3 class="course-title-detailed">Engineering Project Development</h3>
+              <span style="font-size: 0.75rem; font-weight: 700; color: #6d28d9; background: #ede9fe; padding: 0.25rem 0.6rem; border-radius: var(--radius-sm);">Capstone</span>
+            </div>
+            <p class="course-desc-detailed">
+              Turn theoretical concepts into functioning prototypes. Requirements gathering, Bill of Materials (BOM), CAD 3D modeling, soldering, and final testing.
+            </p>
+            <div class="course-meta-box">
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Duration</span>
+                <span class="course-meta-cell-val">To be announced</span>
+              </div>
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Practical Lab</span>
+                <span class="course-meta-cell-val">Full Working Prototype Build</span>
+              </div>
+            </div>
+            <div class="syllabus-heading">Key Topics Covered</div>
+            <ul class="syllabus-list">
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Feasibility analysis, hardware component selection & BOM budgeting</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>3D CAD design for custom enclosures (Fusion 360 / SolidWorks)</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Soldering techniques, cable harnessing, and thermal management</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Project documentation, engineering journals & demo presentations</li>
+            </ul>
+            <div class="course-card-actions">
+              <button class="btn-primary" data-enquire-course="Engineering Project Development">Course Enquiry</button>
+              <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20please%20send%20Project%20Dev%20syllabus." target="_blank" rel="noopener noreferrer" class="btn-secondary">WhatsApp Syllabus</a>
+            </div>
+          </article>
+
+          <!-- Course 8 -->
+          <article class="course-card-detailed">
+            <div class="course-card-top">
+              <h3 class="course-title-detailed">AI + Robotics Applications</h3>
+              <span style="font-size: 0.75rem; font-weight: 700; color: #b91c1c; background: #fee2e2; padding: 0.25rem 0.6rem; border-radius: var(--radius-sm);">Next-Gen</span>
+            </div>
+            <p class="course-desc-detailed">
+              Deploy computer vision and edge AI models onto hardware platforms (Raspberry Pi, NVIDIA Jetson). Visual object detection, obstacle avoidance, and voice-command bots.
+            </p>
+            <div class="course-meta-box">
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Duration</span>
+                <span class="course-meta-cell-val">To be announced</span>
+              </div>
+              <div class="course-meta-cell">
+                <span class="course-meta-cell-label">Practical Lab</span>
+                <span class="course-meta-cell-val">Vision-Guided Autonomous Rover</span>
+              </div>
+            </div>
+            <div class="syllabus-heading">Key Topics Covered</div>
+            <ul class="syllabus-list">
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>OpenCV image processing and camera calibration on Linux</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>YOLO object detection inference running on NVIDIA Jetson / Edge TPU</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Autonomous path planning and LiDAR point cloud integration</li>
+              <li class="syllabus-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Voice assistant integration and natural human-robot interaction</li>
+            </ul>
+            <div class="course-card-actions">
+              <button class="btn-primary" data-enquire-course="AI + Robotics Applications">Course Enquiry</button>
+              <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20please%20send%20AI%20Robotics%20syllabus." target="_blank" rel="noopener noreferrer" class="btn-secondary">WhatsApp Syllabus</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Sticky Action Buttons -->
+  <aside class="floating-container" aria-label="Quick Actions">
+    <a href="blogs.html" class="floating-blogs-shortcut" title="Read Security & Technology Blogs">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10M6 14h6"/></svg>
+      <span>Read Blogs</span>
+    </a>
+    <a href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20want%20to%20enquire%20about%20Robotics%20and%20IoT%20courses." target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" title="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.698.077-1.127-.061-.264-.085-.598-.198-1.042-.392-1.874-.816-3.1-2.73-3.194-.855-.095-.125-.765-1.018-.765-1.942 0-.923.483-1.378.654-1.564.172-.187.376-.234.501-.234.125 0 .25.002.359.007.114.005.267-.043.418.32.155.372.531 1.296.578 1.39.047.094.078.204.016.329-.063.125-.094.204-.188.313-.094.109-.198.244-.282.328-.094.094-.192.196-.083.383.11.188.487.804 1.045 1.301.718.639 1.323.837 1.511.93.188.094.297.078.406-.047.109-.125.469-.547.594-.735.125-.187.25-.156.422-.094.172.062 1.094.516 1.282.609.188.094.313.141.359.219.047.078.047.453-.097.858z"/>
+        <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.982-1.393A9.946 9.946 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.2c-1.63 0-3.15-.46-4.44-1.26l-.32-.2-2.96.83.84-2.88-.21-.33A8.17 8.17 0 0 1 3.8 12c0-4.52 3.68-8.2 8.2-8.2 4.52 0 8.2 3.68 8.2 8.2 0 4.52-3.68 8.2-8.2 8.2z"/>
+      </svg>
+      <span>WhatsApp Us</span>
+    </a>
+  </aside>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-icon" style="background: rgba(255,255,255,0.08);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#D8FF38" fill="rgba(216,255,56,0.2)"/>
+                <path d="M9 8h4.5a2 2 0 0 1 0 4H9V8zm0 4h5a2 2 0 0 1 0 4H9v-4z" stroke="#FFFFFF"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title" style="color: #FFFFFF;">Black<span style="color: var(--color-primary-light);">Grid</span></span>
+              <span class="brand-sub" style="color: var(--color-accent);">Security Labs</span>
+            </div>
+          </div>
+          <p class="footer-brand-p">
+            Professional education and practical training across cybersecurity, software engineering, AI, networking, cloud systems, and robotics.
+          </p>
+          <div class="footer-partner-strip">
+            <span style="font-size: 0.8rem; color: #94A3B8;">Trusted Partner:</span>
+            <a href="https://tskautomations.com/" target="_blank" rel="noopener noreferrer">TSK Automations &rarr;</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">All Courses</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Curriculums</h5>
+          <ul>
+            <li><a href="cybersecurity.html">Cybersecurity & Forensics</a></li>
+            <li><a href="software-development.html">Software Development</a></li>
+            <li><a href="ai-data.html">Artificial Intelligence & Data</a></li>
+            <li><a href="networking.html">Networking & IT Certs</a></li>
+            <li><a href="cloud-devops.html">Cloud & DevOps</a></li>
+            <li><a href="robotics-iot.html">Robotics & IoT</a></li>
+            <li><a href="government-exams.html">Academic Programs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Enquiries</h5>
+          <ul>
+            <li>
+              <span style="color: #64748B; font-size: 0.8rem; display: block;">WhatsApp Support:</span>
+              <a href="https://wa.me/919345832928" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); font-weight: 700;">+91 9345832928</a>
+            </li>
+            <li>
+              <span style="color: #64748B; font-size: 0.8rem; display: block;">Official Email:</span>
+              <span style="color: #0054e5; font-size: 0.85rem;">support@blackgridsecurity.com</span>
+            </li>
+            <li>
+              <span style="color: #64748B; font-size: 0.8rem; display: block;">Address:</span>
+              <span style="color: #0054e5; font-size: 0.85rem;">1st Floor, Shanti Towers, 29, Whites Road, Peters Colony, Royapettah, Chennai, Tamil Nadu, India</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="current-year">2026</span> BlackGrid Security Labs. All rights reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="about.html" style="color: #64748B;">Privacy Policy</a>
+          <a href="about.html" style="color: #64748B;">Terms of Training</a>
+          <a href="contact.html" style="color: #64748B;">Enquiry Portal</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
