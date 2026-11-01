@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BlackGrid Security Labs — Technology &amp; Cybersecurity Education</title>
+<meta content="BlackGrid Security Labs offers cutting-edge education in Cybersecurity, Digital Forensics, Software Development, Artificial Intelligence, Networking, Cloud DevOps, and Robotics." name="description"/>
+<meta content="BlackGrid Security Labs — Technology &amp; Cybersecurity Education" property="og:title"/>
+<meta content="Professional hands-on training, industry certifications, and real-world technology labs." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<!-- Core Stylesheet -->
+<link href="./css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- Top Navigation Header -->
+<header class="site-header" role="banner">
+<div class="container header-inner">
+<!-- Brand Logo -->
+<a aria-label="BlackGrid Security Labs Homepage" class="brand-logo" href="index.html">
+<img alt="BlackGrid Security Labs logo" class="brand-full-logo" src="./assets/images/blackgrid-logo.svg"/>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav aria-label="Main Navigation" class="nav-menu"><div class="nav-item"><a class="nav-link" href="index.html">Home</a></div><div class="nav-item"><a class="nav-link" href="services.html">Services</a></div><div class="nav-item"><a class="nav-link" href="courses.html">BlackGrid Academy</a></div><div class="nav-item"><a class="nav-link" href="about.html">About Us</a></div><div class="nav-item"><a class="nav-link" href="contact.html">Contact</a></div><div class="nav-item"><a class="nav-link" href="workshops.html">Live Events</a></div></nav>
+<!-- Action Buttons -->
+<div class="header-actions"><a class="btn-primary get-training" href="courses.html">Get Training</a><button aria-expanded="false" aria-label="Toggle Mobile Menu" class="mobile-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button></div>
+</div>
+</header>
+<!-- Mobile Navigation Drawer -->
+<div aria-label="Mobile Navigation" class="mobile-drawer" role="dialog">
+<ul class="mobile-nav-list"><li><a class="mobile-nav-link" href="index.html">Home</a></li><li><a class="mobile-nav-link" href="services.html">Services</a></li><li><a class="mobile-nav-link" href="courses.html">BlackGrid Academy</a></li><li><a class="mobile-nav-link" href="about.html">About Us</a></li><li><a class="mobile-nav-link" href="contact.html">Contact</a></li><li><a class="mobile-nav-link" href="workshops.html">Live Events</a></li><li><a class="mobile-nav-link" href="courses.html">Get Training</a></li></ul>
+<div style="margin-top: auto; display: flex; flex-direction: column; gap: 0.75rem;">
+<button class="btn-workshop-badge" data-open-workshop-modal="" style="justify-content: center; width: 100%;">
+<span class="btn-workshop-dot"></span>
+        Upcoming Workshop: Register Interest
+      </button>
+<a class="btn-primary" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%20team%2C%20I%20would%20like%20to%20enquire%20about%20courses." rel="noopener noreferrer" style="justify-content: center; width: 100%;" target="_blank">
+        WhatsApp Enquiry (9345832928)
+      </a>
+</div>
+</div>
+<main>
+<!-- Section 3: Homepage Hero Banner (7 Interactive Slides) -->
+<section aria-label="Featured Programs Showcase" class="hero-slider-section">
+<div class="carousel-container">
+<!-- Slide 1: Cybersecurity & Digital Forensics -->
+<div class="carousel-slide active" data-slide="0">
+<img alt="Cybersecurity &amp; Digital Forensics Lab" class="slide-bg" loading="eager" src="./assets/images/hero_cybersecurity.jpg"/>
+<div class="slide-overlay"></div>
+<div class="container">
+<div class="slide-content">
+<div class="slide-kicker-pill">CYBERSECURITY &amp; DIGITAL FORENSICS</div>
+<h1 class="slide-title">Protect the<br/><span class="highlight">Digital World</span></h1>
+<p class="slide-desc">
+                Learn ethical hacking, cyber defense, digital forensics and security investigation skills.
+              </p>
+<div class="slide-actions">
+<a class="btn-hero-primary" href="cybersecurity.html">
+                  Explore Courses →
+                </a>
+<a class="btn-hero-secondary" href="#courses">Explore Popular Courses</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 2: Software Development & Programming -->
+<div class="carousel-slide" data-slide="1">
+<img alt="Software Development &amp; Programming Workstation" class="slide-bg" loading="lazy" src="./assets/images/hero_software_dev.jpg"/>
+<div class="slide-overlay"></div>
+<div class="container">
+<div class="slide-content">
+<div class="slide-kicker">Software Development &amp; Programming</div>
+<h2 class="slide-title">Build the <span class="highlight">Next Big Thing</span> with Clean Code.</h2>
+<p class="slide-tagline">“Build the Next Big Thing”</p>
+<p class="slide-desc">
+                From Full-Stack web engineering to Python, Java, modern APIs, and clean software architecture. Master real-world projects with modern Git version control.
+              </p>
+<div class="slide-actions">
+<a class="btn-primary" href="software-development.html">
+                  Explore Programming Courses →
+                </a>
+<a class="btn-secondary" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20want%20to%20enquire%20about%20Software%20Development%20courses." rel="noopener noreferrer" target="_blank">
+                  Enquire on WhatsApp
+                </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 3: Artificial Intelligence & Data -->
+<div class="carousel-slide" data-slide="2">
+<img alt="Artificial Intelligence &amp; Data Visualization" class="slide-bg" loading="lazy" src="./assets/images/hero_ai_data.jpg"/>
+<div class="slide-overlay"></div>
+<div class="container">
+<div class="slide-content">
+<div class="slide-kicker">Artificial Intelligence &amp; Data</div>
+<h2 class="slide-title">Turn Complex Data into <span class="highlight">Actionable Intelligence</span>.</h2>
+<p class="slide-tagline">“Turn Data Into Intelligence”</p>
+<p class="slide-desc">
+                Learn Machine Learning, Generative AI, Prompt Engineering, Business Intelligence, Data Analytics, and Responsible AI systems built for modern enterprises.
+              </p>
+<div class="slide-actions">
+<a class="btn-primary" href="ai-data.html">
+                  Explore AI &amp; Data Courses →
+                </a>
+<a class="btn-secondary" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20want%20to%20enquire%20about%20AI%20and%20Data%20Science%20training." rel="noopener noreferrer" target="_blank">
+                  Enquire on WhatsApp
+                </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 4: Networking & IT Certifications -->
+<div class="carousel-slide" data-slide="3">
+<img alt="Networking &amp; IT Certification Server Infrastructure" class="slide-bg" loading="lazy" src="./assets/images/hero_networking.jpg"/>
+<div class="slide-overlay"></div>
+<div class="container">
+<div class="slide-content">
+<div class="slide-kicker">Networking &amp; IT Certifications</div>
+<h2 class="slide-title">Connect. Configure. <span class="highlight">Troubleshoot</span> Enterprise Networks.</h2>
+<p class="slide-tagline">“Connect. Configure. Troubleshoot.”</p>
+<p class="slide-desc">
+                Comprehensive training for CCNA, CompTIA A+, CompTIA Network+, routing &amp; switching, Linux/Windows system administration, and infrastructure support.
+              </p>
+<div class="slide-actions">
+<a class="btn-primary" href="networking.html">
+                  Explore Networking Courses →
+                </a>
+<a class="btn-secondary" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20want%20to%20enquire%20about%20Networking%20and%20CCNA%20courses." rel="noopener noreferrer" target="_blank">
+                  Enquire on WhatsApp
+                </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 5: Cloud Computing & DevOps -->
+<div class="carousel-slide" data-slide="4">
+<img alt="Cloud Computing &amp; DevOps Infrastructure" class="slide-bg" loading="lazy" src="./assets/images/hero_cloud_devops.jpg"/>
+<div class="slide-overlay"></div>
+<div class="container">
+<div class="slide-content">
+<div class="slide-kicker">Cloud Computing &amp; DevOps</div>
+<h2 class="slide-title">Power the <span class="highlight">Cloud Era</span> with Scalable CI/CD.</h2>
+<p class="slide-tagline">“Power the Cloud Era”</p>
+<p class="slide-desc">
+                Master AWS, Microsoft Azure, Google Cloud, Docker containerization, Kubernetes orchestration, CI/CD automated deployment pipelines, and Cloud Security.
+              </p>
+<div class="slide-actions">
+<a class="btn-primary" href="cloud-devops.html">
+                  Explore Cloud &amp; DevOps Courses →
+                </a>
+<a class="btn-secondary" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20want%20to%20enquire%20about%20Cloud%20and%20DevOps%20courses." rel="noopener noreferrer" target="_blank">
+                  Enquire on WhatsApp
+                </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 6: Robotics, IoT & Engineering -->
+<div class="carousel-slide" data-slide="5">
+<img alt="Robotics, IoT and Electronics Engineering" class="slide-bg" loading="lazy" src="./assets/images/hero_robotics_iot.jpg"/>
+<div class="slide-overlay"></div>
+<div class="container">
+<div class="slide-content">
+<div class="slide-kicker">Robotics, IoT &amp; Engineering</div>
+<h2 class="slide-title">Make Ideas <span class="highlight">Move &amp; Work</span> in Real Hardware.</h2>
+<p class="slide-tagline">“Make Ideas Move &amp; Work”</p>
+<p class="slide-desc">
+                From microcontrollers, Arduino, and embedded sensors to industrial automation and AI-driven robotics. Build functioning hardware systems in practical labs.
+              </p>
+<div class="slide-actions">
+<a class="btn-primary" href="robotics-iot.html">
+                  Explore Robotics Courses →
+                </a>
+<a class="btn-secondary" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20want%20to%20enquire%20about%20Robotics%20and%20IoT%20training." rel="noopener noreferrer" target="_blank">
+                  Enquire on WhatsApp
+                </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide 7: Academic & Career Development -->
+<div class="carousel-slide" data-slide="6">
+<img alt="Academic &amp; Career Development Lecture" class="slide-bg" loading="lazy" src="./assets/images/hero_academic_exams.jpg"/>
+<div class="slide-overlay"></div>
+<div class="container">
+<div class="slide-content">
+<div class="slide-kicker">Academic &amp; Career Development</div>
+<h2 class="slide-title">Prepare Today. <span class="highlight">Lead Tomorrow</span> with Clear Guidance.</h2>
+<p class="slide-tagline">“Prepare Today. Lead Tomorrow.”</p>
+<p class="slide-desc">
+                Structured foundations for competitive examinations including TNPSC, UPSC Civil Services, SSC, Quantitative Aptitude, Logical Reasoning, and General Studies.
+              </p>
+<div class="slide-actions">
+<a class="btn-primary" href="government-exams.html">
+                  Explore Academic Programs →
+                </a>
+<a class="btn-secondary" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20want%20to%20enquire%20about%20Academic%20and%20Competitive%20Exam%20programs." rel="noopener noreferrer" target="_blank">
+                  Enquire on WhatsApp
+                </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Carousel Navigation Arrows -->
+<button aria-label="Previous Slide" class="carousel-arrow prev">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="22"><polyline points="15 18 9 12 15 6"></polyline></svg>
+</button>
+<button aria-label="Next Slide" class="carousel-arrow next">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="22"><polyline points="9 18 15 12 9 6"></polyline></svg>
+</button>
+<!-- Carousel Pagination Dots -->
+<div aria-label="Slide Selection" class="carousel-dots" role="tablist">
+<button aria-label="Slide 1: Cybersecurity" class="carousel-dot active" role="tab"></button>
+<button aria-label="Slide 2: Software Development" class="carousel-dot" role="tab"></button>
+<button aria-label="Slide 3: Artificial Intelligence" class="carousel-dot" role="tab"></button>
+<button aria-label="Slide 4: Networking" class="carousel-dot" role="tab"></button>
+<button aria-label="Slide 5: Cloud Computing" class="carousel-dot" role="tab"></button>
+<button aria-label="Slide 6: Robotics &amp; IoT" class="carousel-dot" role="tab"></button>
+<button aria-label="Slide 7: Academic Development" class="carousel-dot" role="tab"></button>
+</div>
+</section><section class="courses-showcase-section" id="courses">
+<div class="container">
+<div class="courses-header-row">
+<div>
+<span class="courses-kicker">OUR COURSES</span>
+<h2 class="courses-heading">Popular Courses</h2>
+<p class="courses-subtext">Choose from our industry-focused courses and gain practical skills for a successful career in technology.</p>
+</div>
+<a class="view-all-link" href="courses.html">
+            View All Courses →
+          </a>
+</div>
+<div class="popular-course-carousel" data-carousel="courses"><div class="course-slider-controls"><button aria-label="Previous courses" class="slider-arrow prev" type="button">‹</button><button aria-label="Next courses" class="slider-arrow next" type="button">›</button></div><div class="course-slider-viewport"><div class="course-slider-track"><a class="course-exact-card slider-course-card" href="cybersecurity.html">
+<div class="course-exact-img-wrap">
+<img alt="Cybersecurity &amp; Digital Forensics" loading="lazy" src="./assets/images/card_cyber_exact.png"/>
+</div>
+<h3 class="course-exact-title">Cybersecurity &amp; Digital Forensics</h3>
+<p class="course-exact-desc">Ethical hacking, network security, digital forensics and threat analysis.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="software-development.html">
+<div class="course-exact-img-wrap">
+<img alt="Software Development" loading="lazy" src="./assets/images/card_software_exact.png"/>
+</div>
+<h3 class="course-exact-title">Software Development</h3>
+<p class="course-exact-desc">Python, Java, web development and full stack development.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="ai-data.html">
+<div class="course-exact-img-wrap">
+<img alt="Artificial Intelligence &amp; Data" loading="lazy" src="./assets/images/card_ai_exact.png"/>
+</div>
+<h3 class="course-exact-title">Artificial Intelligence &amp; Data</h3>
+<p class="course-exact-desc">Machine learning, data analytics, AI tools and real-world projects.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="networking.html">
+<div class="course-exact-img-wrap">
+<img alt="Networking &amp; IT Certifications" loading="lazy" src="./assets/images/card_network_exact.png"/>
+</div>
+<h3 class="course-exact-title">Networking &amp; IT Certifications</h3>
+<p class="course-exact-desc">CCNA, network administration, troubleshooting and certifications.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="cloud-devops.html">
+<div class="course-exact-img-wrap">
+<img alt="Cloud &amp; DevOps" loading="lazy" src="./assets/images/card_cloud_exact.png"/>
+</div>
+<h3 class="course-exact-title">Cloud &amp; DevOps</h3>
+<p class="course-exact-desc">AWS, Azure, Docker, Kubernetes and automation.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="cybersecurity.html">
+<div class="course-exact-img-wrap">
+<img alt="Cybersecurity &amp; Digital Forensics" loading="lazy" src="./assets/images/card_cyber_exact.png"/>
+</div>
+<h3 class="course-exact-title">Cybersecurity &amp; Digital Forensics</h3>
+<p class="course-exact-desc">Ethical hacking, network security, digital forensics and threat analysis.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="software-development.html">
+<div class="course-exact-img-wrap">
+<img alt="Software Development" loading="lazy" src="./assets/images/card_software_exact.png"/>
+</div>
+<h3 class="course-exact-title">Software Development</h3>
+<p class="course-exact-desc">Python, Java, web development and full stack development.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="ai-data.html">
+<div class="course-exact-img-wrap">
+<img alt="Artificial Intelligence &amp; Data" loading="lazy" src="./assets/images/card_ai_exact.png"/>
+</div>
+<h3 class="course-exact-title">Artificial Intelligence &amp; Data</h3>
+<p class="course-exact-desc">Machine learning, data analytics, AI tools and real-world projects.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="networking.html">
+<div class="course-exact-img-wrap">
+<img alt="Networking &amp; IT Certifications" loading="lazy" src="./assets/images/card_network_exact.png"/>
+</div>
+<h3 class="course-exact-title">Networking &amp; IT Certifications</h3>
+<p class="course-exact-desc">CCNA, network administration, troubleshooting and certifications.</p>
+<span class="course-exact-link">Learn More →</span>
+</a><a class="course-exact-card slider-course-card" href="cloud-devops.html">
+<div class="course-exact-img-wrap">
+<img alt="Cloud &amp; DevOps" loading="lazy" src="./assets/images/card_cloud_exact.png"/>
+</div>
+<h3 class="course-exact-title">Cloud &amp; DevOps</h3>
+<p class="course-exact-desc">AWS, Azure, Docker, Kubernetes and automation.</p>
+<span class="course-exact-link">Learn More →</span>
+</a></div></div></div>
+<!-- Exact Upcoming Workshop Banner directly below cards matching screenshot -->
+</div>
+</div>
+</section>
+
+<!-- Section 9: Latest Blogs -->
+<section aria-label="Latest Technical Articles" class="section-py" style="background-color: var(--color-surface);">
+<div class="container">
+<div style="display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 3rem; flex-wrap: wrap; gap: 1rem;">
+<div>
+<span class="section-kicker">Knowledge Base</span>
+<h2 class="section-title">Latest Articles &amp; Insights</h2>
+</div>
+<a class="btn-secondary" href="blogs.html">
+            View All Articles →
+          </a>
+</div>
+<div class="blogs-grid blog-editorial-grid">
+<!-- Blog 1 -->
+<article class="blog-card blog-editorial-card left">
+<div class="blog-image-wrap">
+<img alt="Cybersecurity Learning Guide" loading="lazy" src="./assets/images/hero_cybersecurity.jpg"/>
+</div>
+<div class="blog-card-body">
+<div class="blog-meta-unboxed">
+<span>Cybersecurity</span>
+<span class="divider">/</span>
+<span>6 min read</span>
+</div>
+<h3 class="blog-title">How to Start Learning Cybersecurity</h3>
+<p class="blog-summary">A structured step-by-step roadmap covering networking basics, Linux fluency, defensive fundamentals, and ethical hacking labs.</p>
+<button class="blog-read-more" data-open-blog="cybersecurity-start">
+                Read Article →
+              </button>
+</div>
+</article>
+<!-- Blog 2 -->
+<article class="blog-card blog-editorial-card right">
+<div class="blog-image-wrap">
+<img alt="Full-Stack Web Engineering" loading="lazy" src="./assets/images/hero_software_dev.jpg"/>
+</div>
+<div class="blog-card-body">
+<div class="blog-meta-unboxed">
+<span>Software Engineering</span>
+<span class="divider">/</span>
+<span>8 min read</span>
+</div>
+<h3 class="blog-title">Build Your First Full-Stack Project</h3>
+<p class="blog-summary">Practical guidance on structuring backend REST APIs, client-side state, database schema design, and deploying cleanly on cloud.</p>
+<button class="blog-read-more" data-open-blog="fullstack-project">
+                Read Article →
+              </button>
+</div>
+</article>
+<!-- Blog 3 -->
+<article class="blog-card blog-editorial-card left">
+<div class="blog-image-wrap">
+<img alt="AI &amp; Data Science Careers" loading="lazy" src="./assets/images/hero_ai_data.jpg"/>
+</div>
+<div class="blog-card-body">
+<div class="blog-meta-unboxed">
+<span>Artificial Intelligence</span>
+<span class="divider">/</span>
+<span>7 min read</span>
+</div>
+<h3 class="blog-title">AI and Data Analytics Career Roadmap</h3>
+<p class="blog-summary">Navigating the transition from exploratory data analysis to generative AI model integration and industry automation pipelines.</p>
+<button class="blog-read-more" data-open-blog="ai-roadmap">
+                Read Article →
+              </button>
+</div>
+</article>
+<article class="blog-card blog-editorial-card right"><div class="blog-image-wrap"><img alt="Digital Evidence: First Response Essentials" loading="lazy" src="./assets/images/hero_cybersecurity.jpg"/></div><div class="blog-card-body"><div class="blog-meta-unboxed">Digital Forensics / 5 min read</div><h3>Digital Evidence: First Response Essentials</h3><p>A practical guide to identifying, preserving and documenting digital evidence.</p><a class="blog-read-link" href="blogs.html">Read Article →</a></div></article><article class="blog-card blog-editorial-card left"><div class="blog-image-wrap"><img alt="Inside a Modern SOC Analyst Workflow" loading="lazy" src="./assets/images/hero_networking.jpg"/></div><div class="blog-card-body"><div class="blog-meta-unboxed">Security Operations / 5 min read</div><h3>Inside a Modern SOC Analyst Workflow</h3><p>Explore alert triage, log analysis, threat intelligence and incident response.</p><a class="blog-read-link" href="blogs.html">Read Article →</a></div></article><article class="blog-card blog-editorial-card right"><div class="blog-image-wrap"><img alt="Cloud Security Fundamentals" loading="lazy" src="./assets/images/hero_cloud_devops.jpg"/></div><div class="blog-card-body"><div class="blog-meta-unboxed">Cloud &amp; DevOps / 5 min read</div><h3>Cloud Security Fundamentals</h3><p>Learn essential controls for securing cloud accounts, workloads and data.</p><a class="blog-read-link" href="blogs.html">Read Article →</a></div></article></div>
+</div>
+</section><section aria-label="Trusted Industry Partner" class="section-py partner-section partner-centered">
+<div class="container">
+<div class="partner-card-wrapper">
+<div class="partner-image-box">
+<img alt="TSK Automations Smart Laboratory" loading="lazy" src="./assets/images/partner_tsk_automations.jpg"/>
+</div>
+<div class="partner-content-box">
+<span class="partner-kicker">Industry Collaboration</span>
+<div class="partner-brand-badge">
+<svg fill="none" height="22" stroke="currentColor" stroke-width="2.2" viewbox="0 0 24 24" width="22"><rect height="14" rx="2" width="20" x="2" y="7"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+<span>TSK Automations</span>
+</div>
+<h2 class="partner-headline">Our Trusted Partner</h2>
+<p class="partner-desc">
+              BlackGrid Security Labs collaborates with <strong>TSK Automations</strong> to deliver industry-grade practical exposure, modern automated systems exposure, and real-world technology perspectives.
+            </p>
+<a aria-label="Visit TSK Automations Official Website" class="btn-primary" href="https://tskautomations.com/" rel="noopener noreferrer" target="_blank">
+              Visit TSK Automations Website
+              <svg fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 12: About Us Brief & Quick Contact -->
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Floating Sticky Action Buttons (Exact Reference Layout) -->
+<aside aria-label="Quick WhatsApp Actions" class="floating-whatsapp-exact" id="floatingWhatsApp">
+<div class="whatsapp-chat-trigger-wrap">
+<div class="whatsapp-tooltip-pill">Chat with us on WhatsApp</div>
+<a aria-label="Chat with BlackGrid Security Labs on WhatsApp" class="whatsapp-circle-btn" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20would%20like%20to%20chat%20about%20courses." rel="noopener noreferrer" target="_blank">
+<svg fill="currentColor" height="24" viewbox="0 0 24 24" width="24">
+<path d="M12.031 2C6.498 2 2 6.495 2 12.029c0 1.954.558 3.843 1.616 5.485L2 22l4.636-1.579a9.986 9.986 0 0 0 5.395 1.547h.004c5.532 0 10.029-4.496 10.029-10.03C22.064 6.496 17.567 2 12.031 2zm5.836 14.168c-.244.686-1.42 1.31-1.958 1.393-.509.078-1.173.111-3.793-.974-2.822-1.168-4.634-4.04-4.774-4.228-.139-.188-1.144-1.523-1.144-2.906 0-1.383.723-2.062.978-2.345.255-.282.557-.353.743-.353.186 0 .372.002.534.01.173.008.406-.066.634.482.233.56.79 1.928.859 2.069.07.141.116.306.023.494-.093.188-.139.306-.279.47-.139.165-.293.368-.418.494-.14.14-.286.293-.123.573.163.279.724 1.194 1.554 1.933 1.068.951 1.968 1.246 2.247 1.386.279.14.442.116.605-.07.163-.186.698-.813.884-1.092.186-.279.372-.233.628-.14.256.093 1.628.767 1.907.907.279.14.465.209.535.325.07.116.07.674-.174 1.36z"></path>
+</svg>
+<span class="whatsapp-red-badge">1</span>
+</a>
+</div>
+<a class="whatsapp-card-pill" href="https://wa.me/919345832928?text=Hello%20BlackGrid%20Security%20Labs%2C%20I%20would%20like%20to%20chat%20about%20courses." rel="noopener noreferrer" target="_blank">
+<div class="whatsapp-card-icon">
+<svg fill="currentColor" height="20" viewbox="0 0 24 24" width="20">
+<path d="M12.031 2C6.498 2 2 6.495 2 12.029c0 1.954.558 3.843 1.616 5.485L2 22l4.636-1.579a9.986 9.986 0 0 0 5.395 1.547h.004c5.532 0 10.029-4.496 10.029-10.03C22.064 6.496 17.567 2 12.031 2zm5.836 14.168c-.244.686-1.42 1.31-1.958 1.393-.509.078-1.173.111-3.793-.974-2.822-1.168-4.634-4.04-4.774-4.228-.139-.188-1.144-1.523-1.144-2.906 0-1.383.723-2.062.978-2.345.255-.282.557-.353.743-.353.186 0 .372.002.534.01.173.008.406-.066.634.482.233.56.79 1.928.859 2.069.07.141.116.306.023.494-.093.188-.139.306-.279.47-.139.165-.293.368-.418.494-.14.14-.286.293-.123.573.163.279.724 1.194 1.554 1.933 1.068.951 1.968 1.246 2.247 1.386.279.14.442.116.605-.07.163-.186.698-.813.884-1.092.186-.279.372-.233.628-.14.256.093 1.628.767 1.907.907.279.14.465.209.535.325.07.116.07.674-.174 1.36z"></path>
+</svg>
+</div>
+<div>
+<div class="whatsapp-card-title">Course Enquiry</div>
+<div class="whatsapp-card-num">WhatsApp: 9345832928</div>
+</div>
+<div class="whatsapp-card-arrow">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="18"><polyline points="9 18 15 12 9 6"></polyline></svg>
+</div>
+</a>
+</aside>
+<!-- Site Footer -->
+<footer class="site-footer" role="contentinfo">
+<div class="container">
+<div class="footer-grid">
+<!-- Col 1: Brand -->
+<div><img alt="BlackGrid Security Labs logo" class="footer-brand-logo" src="./assets/images/blackgrid-logo.svg"/>
+
+<p class="footer-brand-p">
+            Professional education and practical training across cybersecurity, software engineering, AI, networking, cloud systems, and robotics.
+          </p>
+
+</div>
+<!-- Col 2: Quick Links -->
+<div class="footer-col">
+<h5>Quick Navigation</h5>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="courses.html">All Courses</a></li>
+<li><a href="services.html">IT Services</a></li>
+<li><a href="workshops.html">Workshops</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<!-- Col 3: Course Programs -->
+<div class="footer-col">
+<h5>Curriculums</h5>
+<ul>
+<li><a href="cybersecurity.html">Cybersecurity &amp; Forensics</a></li>
+<li><a href="software-development.html">Software Development</a></li>
+<li><a href="ai-data.html">Artificial Intelligence &amp; Data</a></li>
+<li><a href="networking.html">Networking &amp; IT Certs</a></li>
+<li><a href="cloud-devops.html">Cloud &amp; DevOps</a></li>
+<li><a href="robotics-iot.html">Robotics &amp; IoT</a></li>
+<li><a href="government-exams.html">Academic Programs</a></li>
+</ul>
+</div>
+<!-- Col 4: Contact & Enquiries -->
+<div class="footer-col">
+<h5>Contact &amp; Support</h5>
+<ul>
+<li>
+<span style="color: #64748B; font-size: 0.8rem; display: block;">WhatsApp &amp; Phone:</span>
+<a href="https://wa.me/919345832928" rel="noopener noreferrer" style="color: var(--color-accent); font-weight: 700;" target="_blank">+91 9345832928</a>
+</li>
+<li>
+<span style="color: #64748B; font-size: 0.8rem; display: block;">Official Email:</span>
+<span style="color: #CBD5E1; font-size: 0.85rem;">[To be updated]</span>
+</li>
+<li>
+<span style="color: #64748B; font-size: 0.8rem; display: block;">Address:</span>
+<span style="color: #CBD5E1; font-size: 0.85rem;">[To be updated]</span>
+</li>
+<li style="margin-top: 0.5rem;">
+<button class="btn-workshop-badge" data-open-workshop-modal="" style="width: 100%; justify-content: center;">
+<span class="btn-workshop-dot"></span>
+                Workshop Registration
+              </button>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<div>
+          © <span id="current-year">2026</span> BlackGrid Security Labs. All rights reserved.
+        </div>
+<div style="display: flex; gap: 1.5rem;">
+<a href="about.html" style="color: #64748B;">Privacy Policy</a>
+<a href="about.html" style="color: #64748B;">Terms of Training</a>
+<a href="contact.html" style="color: #64748B;">Enquiry Portal</a>
+</div>
+</div>
+</div>
+<div class="footer-main-navigation"><h3>Explore BlackGrid</h3><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="courses.html">BlackGrid Academy</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="workshops.html">Live Events</a></li><li><a href="courses.html">Get Training</a></li></ul></div></footer>
+<!-- Modal 1: Workshop Interest Registration Modal -->
+<div aria-labelledby="modal-ws-title" aria-modal="true" class="modal-overlay" id="workshop-modal" role="dialog">
+<div class="modal-dialog">
+<div class="modal-header">
+<h3 class="modal-title" id="modal-ws-title">Register Workshop Interest</h3>
+<button aria-label="Close dialog" class="modal-close-btn">×</button>
+</div>
+<div class="modal-body">
+<div style="background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1rem; margin-bottom: 1.5rem;">
+<div style="font-size: 0.8rem; text-transform: uppercase; color: var(--color-primary); font-weight: 700; letter-spacing: 0.05em;">Selected Workshop</div>
+<div style="font-size: 1.1rem; font-weight: 800; color: var(--color-dark); margin-top: 2px;">Ethical Hacking Hands-on Workshop</div>
+<div style="display: flex; gap: 1.5rem; margin-top: 0.5rem; font-size: 0.85rem; color: var(--color-text-muted);">
+<span>Date: <strong style="color: var(--color-primary);">To be announced</strong></span>
+<span>Mode: <strong>Online / Offline</strong></span>
+</div>
+</div>
+<form id="workshop-form">
+<div class="form-group">
+<label class="form-label" for="ws-name">Your Full Name *</label>
+<input class="form-input" id="ws-name" placeholder="e.g. Alex Kumar" required="" type="text"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="ws-phone">WhatsApp / Mobile Number *</label>
+<input class="form-input" id="ws-phone" placeholder="e.g. 9876543210" required="" type="tel"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="ws-mode">Preferred Learning Mode</label>
+<select class="form-select" id="ws-mode">
+<option value="Online Virtual Lab">Online (Interactive Virtual Lab)</option>
+<option value="Offline Classroom Lab">Offline (Physical Classroom Lab)</option>
+<option value="Either Mode">Either Mode (Flexible)</option>
+</select>
+</div>
+<div class="form-group">
+<label class="form-label" for="ws-notes">Questions or Areas of Interest (Optional)</label>
+<textarea class="form-textarea" id="ws-notes" placeholder="e.g. Interested in Web Security and Burp Suite" rows="2"></textarea>
+</div>
+<button class="btn-primary" style="width: 100%; justify-content: center; padding: 0.85rem;" type="submit">
+            Submit &amp; Connect via WhatsApp
+          </button>
+<p class="form-help" style="text-align: center; margin-top: 0.75rem;">
+            Submitting immediately opens WhatsApp with your prefilled details to +91 9345832928.
+          </p>
+</form>
+</div>
+</div>
+</div>
+<!-- Modal 2: Blog Reader Modal -->
+<div aria-labelledby="blog-modal-title" aria-modal="true" class="modal-overlay" id="blog-modal" role="dialog">
+<div class="modal-dialog" style="max-width: 680px;">
+<div class="modal-header">
+<div>
+<div id="blog-modal-meta" style="font-size: 0.75rem; text-transform: uppercase; color: var(--color-primary); font-weight: 700; letter-spacing: 0.05em; margin-bottom: 4px;"></div>
+<h3 class="modal-title" id="blog-modal-title"></h3>
+</div>
+<button aria-label="Close article" class="modal-close-btn">×</button>
+</div>
+<div class="modal-body" id="blog-modal-body" style="font-size: 0.95rem; color: #334155; line-height: 1.7;">
+</div>
+<div style="padding: 1.25rem 2rem; background: var(--color-surface); border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center;">
+<span style="font-size: 0.85rem; color: var(--color-text-muted);">Want training in this area?</span>
+<a class="btn-primary" href="https://wa.me/919345832928?text=Hello%20BlackGrid%2C%20I%20read%20your%20blog%20and%20want%20to%20learn%20more%20about%20the%20training%20syllabus." rel="noopener noreferrer" style="font-size: 0.85rem; padding: 0.5rem 1rem;" target="_blank">
+          Chat on WhatsApp
+        </a>
+</div>
+</div>
+</div>
+<!-- Client Script -->
+<script src="./js/script.js"></script>
+</body>
+</html>
